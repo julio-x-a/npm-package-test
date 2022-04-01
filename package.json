@@ -1,0 +1,23 @@
+{
+  "name": "random-messages-julace",
+  "version": "1.0.0",
+  "description": "Generate a random from an array of words",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "mensajes",
+    "random",
+    "javascript",
+    "npm",
+    "node"
+  ],
+  "author": "Julio Acevedo",
+  "license": "MIT",
+  "bin": {
+    "random-msg": "./bin/global.js"
+  },
+  "preferGlobal": true
+}
